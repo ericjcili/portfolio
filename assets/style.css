@@ -264,7 +264,7 @@ footer img {
   }
   
   .hero-bio {
-    text-align: right;
+    text-align: center;
   }
   .section-title {
     width: 80%;
@@ -275,18 +275,16 @@ footer img {
     flex-direction: column;
   }
   
-  .some-class {
-    text-shadow: 5px 10px 15px black;
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+  .form1 {
+    text-align: center;
+    width: 100%;
   }
   @media screen and (max-width: 768px) {
 
     section {
       padding: 30px 15px;
     }
-    .hero {
-      flex-direction: column;
-    }
+
     .contact-msg {
       flex-direction: column;
       font-size: 85%;
