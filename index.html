@@ -50,16 +50,13 @@
             <h2 class="section-title">Projects</h2>
         </div>
         <div class="works">
-            <div class="item">
-            <div class="work">
+            <div class="work" type="button" onclick="location.href='https://ericjcili.github.io/run-buddy/'">
                 <img src="assets/images/Screen Shot 2021-06-28 at 11.39.30 PM.png" style="width: 100%;">
                 <div class="work-info">
                     <h2><b>Run Buddy</b></h2>
                     <p>My first fully-functional webpage that I created in the early stages of my UCF boot-camp.</p>
                 </div>
             </div>
-            </div>
-            <div class="item">
             <div class="work">
                 <img src="assets/images/Screen Shot 2021-06-28 at 11.39.58 PM.png" style="width:100%">
                 <div class="work-info">
@@ -67,34 +64,48 @@
                     <p>I hand coded the HTML, CSS, and Javascript for this website.</p>
                 </div>
             </div>
-            </div>
-            <div class="item">
             <div class="work">
                 <div class="work-info">
                     <h2>More Projects Coming Soon!</h2>
                 </div>
             </div>
-            </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact-me">
         <div class="flex-row">
             <h2 class="section-title">Contact Me!</h2>
         </div>
         <div class="contact-msg">
-            <h3>You can contact me any time for questions, career opportunities, or just to say hello! You can reach me by email, <u>ericjcili@gmail.com</u> or by filling out the form below.</b></h3>
+            <div class="form1">
+                <h3>You can contact me any time for questions, career opportunities, or just to say hello! You can reach me by email, <u>ericjcili@gmail.com</u> or by pressing the button below. You can also find me on the socials, found at the bottom of the page.</b></h3>
+                <div class="contact-form">
+                    <form action="mailto:ericjcili@gmail.com" method="POST" enctype="multipart/form-data">
+                        <button type="submit"><b>Email Me</b></button>
+                    </form>
+                </div>
+            </div>
+            <img src="./assets/images/IMG_8061.jpg" style="width: 450px; height: 330px;" class="contact-img">
         </div>
-        <div class="contact-form">
-            <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" />
-                <label for="contact-message">Message</label>
-                <textarea id="contact-message" placeholder="Message"></textarea>
-                <button type="submit">Submit</button>
-              </form>
+    </section>
+    <section class="resume" id="resume">
+        <div class="flex-row">
+            <h2 class="section-title">Resume</h2>
+        </div>
+        <div class="contact-msg">
+            <img src="./assets/images/8C53FE7D-C11B-4DAA-B71E-9B276E3DE83E.JPG"" style="width: 450px; height: 330px;" class="contact-img">
+            <div class="form1">
+                <h3>Access my resume straight from the website! Click the button below to open my resume.</b></h3>
+                <div class="contact-form">
+                    <form action="./assets/resume.html">
+                        <button type="submit"><b>Open Resume</b></button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
-      </footer>
+        <img src="assets/images/IMG_0095.JPG" style="height: 100px; width: 100px;">
+        <img src="assets/images/IMG_1331.PNG" style="height: 10√0px; width: 100px;" type="button" onclick="location.href='https://www.instagram.com/eric.ciali/'">
+    </footer>
 </body>
 </html>
